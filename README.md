@@ -12,6 +12,7 @@
 ### URL HOMEPAGE
 
 ### URL EC2 INSTANCE
+http://18.234.187.79:8080/RSBK-Project/
 
 ## SCREENSHOT
 ![Alt text](/survey_1.png?raw=true "Survey Mahasiswa 1")
