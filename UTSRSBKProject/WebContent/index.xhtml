@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"> 
+
+<h:head>
+	<title>Survey Mahasiswa Undip</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+</h:head>
+
+ 
+<h:body styleClass="cyan lighten-5"> 
+	<div class="valign-wrapper" id="login-page">
+		<div class="container">
+			<div class="center-align">
+				<div class="row">
+				<div class="col s8 offset-s2">
+					<div class="card">
+						<div class="card-content">
+						<i class="large material-icons">assignment</i>
+						<h2>Form Survey</h2>
+						<h4>Kepuasaan Mahasiswa Terhadap Fasilitas Kampus Undip</h4>
+							<div class="left-align">
+								<h:form id="login-form">
+									<div class="row">
+										<div class="col s12 input-field">
+										<i class="material-icons prefix">mode_edit</i>
+									    <h:inputText value="#{respon.fname}" required="true" requiredMessage="Nama Tidak boleh kosong!!" id="form1"></h:inputText>
+									    <h:message for="form1" class="red-text text-darken-2"></h:message>
+									    <label for="form1">Nama Depan</label>
+									    </div>
+									    <br /><br />
+									    <div class="col s12 input-field">
+										<i class="material-icons prefix">mode_edit</i>
+									    <h:inputText value="#{respon.lname}" required="true" requiredMessage="Nama Tidak boleh kosong!!" id="form2">
+									    </h:inputText>
+									    <h:message for="form2" class="red-text text-darken-2"></h:message>
+									    <label for="form2">Nama Belakang</label>
+									    </div>
+									    <br /><br />
+									    <div class="col s12 input-field">
+										<i class="material-icons prefix">mode_edit</i>
+									    <h:inputText value="#{respon.addrst}" required="true" requiredMessage="Field Tidak boleh kosong!!" id="form3">
+									    </h:inputText>
+									    <h:message for="form3" class="red-text text-darken-2"></h:message>
+									    <label for="form3">Alamat</label>
+									    </div>
+									    <br /><br />
+									    <div class="col s12 input-field">
+										<i class="material-icons prefix">mode_edit</i>
+									    <h:inputText value="#{respon.addrcity}" required="true" requiredMessage="Field Tidak boleh kosong!!" id="form4">
+									    </h:inputText>
+									    <h:message for="form4" class="red-text text-darken-2"></h:message>
+									    <label for="form4">Kota Asal</label>
+									    </div>
+									    <br /><br />
+									    <div class="col s12 input-field">
+										<i class="material-icons prefix">mode_edit</i>
+									    <h:inputText value="#{respon.addrpos}" required="true" requiredMessage="Field Tidak boleh kosong!!" id="form5">
+									    </h:inputText>
+									    <h:message for="form5" class="red-text text-darken-2"></h:message>
+									    <label for="form5">Kode Pos</label>
+									    </div>
+									    <br /><br />
+									    <div class="col s12 input-field">
+										<i class="material-icons prefix">mode_edit</i>
+									    <h:inputText value="#{respon.phone}" required="true" requiredMessage="Field Tidak boleh kosong!!" id="form6">
+									    </h:inputText>
+									    <h:message for="form6" class="red-text text-darken-2"></h:message>
+									    <label for="form6">Nomor HP</label>
+									    </div>
+									    <br /><br />
+									    <div class="col s12 input-field">
+										<i class="material-icons prefix">mode_edit</i>
+									    <h:inputText value="#{respon.email}" required="true" requiredMessage="Field Tidak boleh kosong!!" id="form7">
+									    </h:inputText>
+									    <h:message for="form7" class="red-text text-darken-2"></h:message>
+									    <label for="form7">Email</label>
+									    </div>
+									    <br /><br />
+									    <div class="col s12 input-field">
+										<i class="material-icons prefix">mode_edit</i>
+									    <h:inputText value="#{respon.date}" type="date" required="true" requiredMessage="Field Tidak boleh kosong!!"
+									        id="form8"></h:inputText>
+									    <h:message for="form8" class="red-text text-darken-2"></h:message>
+									    <label for="form8">Tanggal Survey</label>
+									    </div>
+									    <div class="col s12">
+									    <blockquote>
+									    <h5>Fasilitas tempat apa yang sering anda kunjungi :</h5>
+						 				</blockquote>
+									    	<p>
+									    	<label>
+									    	<input type="checkbox"/>
+									    	<span>Taman GKB</span>
+									    	</label>
+									    	</p>
+									    	<p>
+									    	<label>
+									    	<input type="checkbox"/>
+									    	<span>ITC</span>
+									    	</label>
+									    	</p>
+									    	<p>
+									    	<label>
+									    	<input type="checkbox"/>
+									    	<span>Perpustakaan Universitas</span>
+									    	</label>
+									    	</p>
+									    	<p>
+									    	<label>
+									    	<input type="checkbox"/>
+									    	<span>Stadion Undip</span>
+									    	</label>
+									    	</p>
+									    	<p>
+									    	<label>
+									    	<input type="checkbox"/>
+									    	<span>Waduk Undip</span>
+									    	</label>
+									    	</p>
+									    </div>
+									    
+									    <div class="col s12">
+									    <blockquote>
+									    	<h5>Apa yang Anda sukai tentang fasilitas Undip :</h5>
+									    </blockquote>
+			                                 <p>
+      											<label>
+        										<input class="with-gap" name="group1" type="radio"  />
+        										<span>Kebersihan</span>
+      											</label>
+    										</p>
+    										<p>
+      											<label>
+        										<input class="with-gap" name="group1" type="radio"  />
+        										<span>Keramahan penjaga/pegawai</span>
+      											</label>
+    										</p>
+    										<p>
+      											<label>
+        										<input class="with-gap" name="group1" type="radio"  />
+        										<span>Ramah Pejalan Kaki</span>
+      											</label>
+    										</p>
+    										<p>
+      											<label>
+        										<input class="with-gap" name="group1" type="radio"  />
+        										<span>keamanan Parkir</span>
+      											</label>
+    										</p>
+    										<p>
+      											<label>
+        										<input class="with-gap" name="group1" type="radio"  />
+        										<span>Lahan Parkir</span>
+      											</label>
+    										</p>
+									    </div>
+									    
+									    <div class="col s12">
+									    <blockquote>
+									    <h5>Seberapa mungkin Anda merekomendasikan Undip kepada calon mahasiswa lain :</h5>
+									    </blockquote> 
+										  <select class="browser-default">
+										    <option value="" >Choose your option</option>
+										    <option value="1">Sangat Mungkin</option>
+										    <option value="2">Mungkin</option>
+										    <option value="3">Tidak Mungkin</option>
+										  </select>
+									    </div>
+									    
+									    <div class="col s12 input-field">
+									    <blockquote>
+									    <h5>Apa Alasan Anda ?</h5>
+									    </blockquote>
+									    	
+									    	<h:inputTextarea value="#{respon.comment}" styleClass="browser-default">
+                                
+                                			</h:inputTextarea>
+									    </div>
+									    
+									</div>
+									<div class="right-align">
+										<h:commandButton value="submit" action="survey_result" styleClass="btn btn-large"></h:commandButton>
+									</div>
+								</h:form>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<script>
+		$(document).on("ready", function(){
+			$('#login-page').css({'height': window.innerHeight + 'px'});
+		});
+	</script>
+	
+	<script>
+	document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, options);
+  	});	
+  	$('.dropdown-trigger').dropdown();
+	</script>
+</h:body> 
+</html>
