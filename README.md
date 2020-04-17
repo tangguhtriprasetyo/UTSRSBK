@@ -12,3 +12,8 @@
 ### URL HOMEPAGE
 
 ### URL EC2 INSTANCE
+
+## SCREENSHOT
+![Alt text](/survey_1.png?raw=true "Survey Mahasiswa 1")
+![Alt text](/survey_2.png?raw=true "Survey Mahasiswa 2")
+![Alt text](/survey_3.png?raw=true "Survey Mahasiswa 3")
