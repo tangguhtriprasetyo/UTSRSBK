@@ -10,6 +10,7 @@
 4. Jika tidak terbuka secara otomatis, pada browser ketik: http://localhost:8080/project/ 
 
 ### URL HOMEPAGE
+http://54.165.23.255/index.html
 
 ### URL EC2 INSTANCE
 http://18.234.187.79:8080/RSBK-Project/
