@@ -17,7 +17,6 @@ http://18.234.187.79:8080/RSBK-Project/
 
 ## SCREENSHOT
 ![Alt text](/uts_1.PNG?raw=true "Survey Mahasiswa 1")
-
 ![Alt text](/uts_2.PNG?raw=true "Survey Mahasiswa 2")
 ![Alt text](/uts_3.png?raw=true "Survey Mahasiswa 3")
 ![Alt text](/uts_4.png?raw=true "Survey Mahasiswa 4")
