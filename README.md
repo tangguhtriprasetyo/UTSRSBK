@@ -10,6 +10,7 @@
 4. Jika tidak terbuka secara otomatis, pada browser ketik: http://localhost:8080/project/ 
 
 ### URL HOMEPAGE
+Maaf, AWS Credit kami habis. Ini sedang dicarikan solusinya.
 http://54.165.23.255/index.html
 
 ### URL EC2 INSTANCE
